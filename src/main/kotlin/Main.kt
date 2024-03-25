@@ -7,7 +7,11 @@ fun main(){
     println(4.0/3.0)
 
 }
-fun calculateSphereVolume(radius: Double): Double {
+fun calculate(radius: Double): Double {
     val pi = 3.14159
     return (4.0 / 3.0) * pi * radius.pow(3)
+}
+fun isPalindrome(str: String): Boolean {
+    val reversedStr = str.reversed()
+    return str == reversedStr
 }
